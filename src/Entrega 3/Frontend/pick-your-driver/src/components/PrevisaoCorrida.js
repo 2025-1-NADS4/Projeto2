@@ -11,7 +11,7 @@ function PrevisaoCorrida() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const resp = await axios.post('https://projeto2--leonardomouzinh.repl.co/api/prever', {
+      const resp = await axios.post('https://26d92dc1-b642-4acc-91c3-4eaf9f9501b1-00-1mpjjkjrrao0.kirk.replit.dev/', {
   nome,
   email,
   endereco_partida: enderecoPartida,
